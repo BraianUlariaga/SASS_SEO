@@ -43,8 +43,8 @@ body{
 
 nav div.collapse ul li {
     display:inline-block;
-    padding-top: 10px;
-    padding-bottom: 10PX;
+    padding-top: 15px;
+    padding-bottom: 15PX;
     margin: 3px;
     align-content: flex-end;
 }
@@ -143,3 +143,12 @@ h1{ background-color: var(--bg-lgblue);
 
 }
  
+/* Animaciones */
+
+.btn-nav:hover  {
+    transform: translate(0px,20px);
+    background-color:gainsboro;
+    transition: transform 2sg ;
+    cursor:progress;
+}
+
