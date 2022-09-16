@@ -1,0 +1,132 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background: $primarygradient;
+}
+
+nav div.collapse ul li  
+{
+    display:inline-block;
+    padding-top: 15px;
+    padding-bottom: 15PX;
+    margin: 3px;
+    align-content: flex-end;
+    a
+    {  text-align: center;
+        font-size: $text-sm;
+        text-decoration: none;
+        color: $color-white;
+        background-color: $bg-nvblue;
+        border-radius: 7px;
+        padding: 5px;
+        font-family:$fontsecon ;
+        transition: all 1s;
+        &:hover
+        {
+            color:$color--black;
+            text-decoration: underline;
+            transition: 2sg;    
+        }
+    }
+}
+
+
+.header{
+    grid-column: 1/3;
+    height: 300px;
+    background-image: url(../Imagenes/Header/Header.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+h1{ background-color: $bg-lgblue;
+    color: $color-white;
+    text-align: center;
+    font-size: $text-lg;
+    justify-content: center;
+    margin: 5px;
+}
+
+.img-carrusel
+{
+     height: 500px;
+}
+
+
+.title--orange 
+{
+    color: $color-orange;
+    font-size: $text-md;
+    text-align: center;
+}
+
+.title--blue 
+{
+    color: $color-blue;
+    font-size: $text-md;
+    text-align: center;
+}
+
+.text--white 
+{
+    color: $color-white;
+    font-size: $text-sm;
+    text-align: center;
+}
+
+.text--lgblue
+{
+    color: $color-lgblue;
+    font-size: $text-sm;
+    text-align: center;
+}
+
+.bg-blue 
+{  
+    background-color: $bg-blue;
+}
+.bg-lgblue  
+{
+    background-color: $bg-lgblue;
+}
+
+.bg-btn  {
+    background: $secondarygradient;
+    margin: 5px;
+ }
+.formulario        	{
+    padding: 20px;
+
+}
+ 
+/* Animaciones */
+
+.btn-nav {
+    &:hover 
+    {
+        transform: translate(0px,20px);
+        background-color:gainsboro;
+        transition: transform 2sg ;
+        cursor:progress;    
+    }
+}
+
+
+.pie{
+    background: $primarygradient;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+footer a
+{
+    img
+    {
+        padding: 5px;
+        width: 50px;
+    }
+}

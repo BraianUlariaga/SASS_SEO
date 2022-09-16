@@ -1,0 +1,42 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+$fontsecon:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+/*Normalizacion*/
+*   {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/*fonts size*/
+$text-lg:4rem;
+$text-md:2rem;
+$text-sm:1.5rem;
+
+/*background*/
+$bg-blue:rgb(46, 42, 73);
+$bg-lgblue:rgb(137, 196, 255);
+$bg-nvblue: cornflowerblue;
+
+/*Gradient*/
+
+$primarygradient:linear-gradient(to right, rgb(137, 196, 255), rgb(68, 238, 173));
+$secondarygradient:linear-gradient(to top,rgb(255, 229, 137), rgb(238, 113, 68) );
+
+/*text color*/
+$color-white: white;
+$color-orange:rgb(255, 119, 0);;
+$color-blue:rgb(46, 42, 73);
+$color-lgblue:rgb(0, 128, 255);;
+$color--black:black;
+
+body{
+    background-color:$bg-blue;
+}
