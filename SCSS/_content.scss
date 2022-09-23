@@ -108,7 +108,7 @@ h1{
 
 .btn-nav {
     &:hover{
-        
+
         background-color:gainsboro;
         transition: transform 2sg ;
         cursor:progress;    
@@ -119,7 +119,7 @@ h1{
 .pie{
 
     background: $primarygradient;
-    padding-right: 10px;
+    padding-right: 10px;    
     display: flex;
     justify-content: flex-end;
     
