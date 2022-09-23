@@ -6,12 +6,14 @@ $fontsecon:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 /*Normalizacion*/
 *   {
+
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
 html{
+
     font-size: 62.5%;
 }
 
@@ -38,5 +40,6 @@ $color-lgblue:rgb(0, 128, 255);;
 $color--black:black;
 
 body{
+    
     background-color:$bg-blue;
 }

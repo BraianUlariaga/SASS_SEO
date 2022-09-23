@@ -4,30 +4,29 @@
     background: $primarygradient;
 }
 
-nav div.collapse ul li  
-{
-    display:inline-block;
-    padding-top: 15px;
-    padding-bottom: 15PX;
-    margin: 3px;
-    align-content: flex-end;
-    a
-    {  text-align: center;
-        font-size: $text-sm;
-        text-decoration: none;
-        color: $color-white;
-        background-color: $bg-nvblue;
-        border-radius: 7px;
-        padding: 5px;
-        font-family:$fontsecon ;
-        transition: all 1s;
-        &:hover
-        {
-            color:$color--black;
-            text-decoration: underline;
-            transition: 2sg;    
-        }
-    }
+nav div.collapse ul li  {
+
+                            display:inline-block;
+                            padding-top: 15px;
+                            padding-bottom: 15PX;
+                            margin: 3px;
+                            align-content: flex-end;
+                            a{  text-align: center;
+                                font-size: $text-sm;
+                                text-decoration: none;
+                                color: $color-white;
+                                background-color: $bg-nvblue;
+                                border-radius: 7px;
+                                padding: 5px;
+                                font-family:$fontsecon ;
+                                transition: all 1s;
+                                &:hover{
+                                    color:$color--black;
+                                    text-decoration: underline;
+                                    transition: 2sg;    
+                                }
+                            }
+                        
 }
 
 
@@ -41,7 +40,8 @@ nav div.collapse ul li
     justify-content: center;
 }
 
-h1{ background-color: $bg-lgblue;
+h1{ 
+    background-color: $bg-lgblue;
     color: $color-white;
     text-align: center;
     font-size: $text-lg;
@@ -49,54 +49,57 @@ h1{ background-color: $bg-lgblue;
     margin: 5px;
 }
 
-.img-carrusel
-{
+.img-carrusel{
+
      height: 500px;
 }
 
 
-.title--orange 
-{
+.title--orange {
+
     color: $color-orange;
     font-size: $text-md;
     text-align: center;
 }
 
-.title--blue 
-{
+.title--blue{
+
     color: $color-blue;
     font-size: $text-md;
     text-align: center;
 }
 
-.text--white 
-{
+.text--white{
+
     color: $color-white;
     font-size: $text-sm;
     text-align: center;
 }
 
-.text--lgblue
-{
+.text--lgblue{
+
     color: $color-lgblue;
     font-size: $text-sm;
     text-align: center;
 }
 
-.bg-blue 
-{  
+.bg-blue{  
+
     background-color: $bg-blue;
 }
-.bg-lgblue  
-{
+.bg-lgblue{
+
     background-color: $bg-lgblue;
 }
 
-.bg-btn  {
+.bg-btn{
+
     background: $secondarygradient;
     margin: 5px;
  }
-.formulario        	{
+
+.formulario{
+
     padding: 20px;
 
 }
@@ -104,9 +107,8 @@ h1{ background-color: $bg-lgblue;
 /* Animaciones */
 
 .btn-nav {
-    &:hover 
-    {
-        transform: translate(0px,20px);
+    &:hover{
+        
         background-color:gainsboro;
         transition: transform 2sg ;
         cursor:progress;    
@@ -115,6 +117,7 @@ h1{ background-color: $bg-lgblue;
 
 
 .pie{
+
     background: $primarygradient;
     padding-right: 10px;
     display: flex;
@@ -122,10 +125,10 @@ h1{ background-color: $bg-lgblue;
     
 }
 
-footer a
-{
-    img
-    {
+footer a{
+
+    img{
+
         padding: 5px;
         width: 50px;
     }

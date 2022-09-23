@@ -135,8 +135,6 @@ h1 {
 
 /* Animaciones */
 .btn-nav:hover {
-  -webkit-transform: translate(0px, 20px);
-          transform: translate(0px, 20px);
   background-color: gainsboro;
   -webkit-transition: -webkit-transform 2sg;
   transition: -webkit-transform 2sg;
